@@ -1,0 +1,1 @@
+import{j as s,w as r}from"./index-7m9_wtS-.js";import{C as a,R as o}from"./Row-4Vo06hVD.js";const p=({emptyMessage:m,records:t,renderItem:n})=>{const i=t.length>0?t.map(e=>s.jsx(a,{xs:12,sm:6,md:4,lg:3,className:"d-flex justify-content-center mb-5 mt-2",children:n(e)},e.id)):s.jsx(r,{type:"empty",message:m});return s.jsx(o,{children:i})};export{p as G};
