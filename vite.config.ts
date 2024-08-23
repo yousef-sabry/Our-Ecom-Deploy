@@ -4,6 +4,8 @@ import svgr from "vite-plugin-svgr";
 import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
+  plugins: [react(), svgr()],
+  base: 'Our-Ecom-Deploy',
   resolve: {
     alias: {
       "@assets": path.resolve(__dirname, "./src/assets"),
@@ -19,6 +21,8 @@ export default defineConfig({
       "@services": path.resolve(__dirname, "./src/services"),
       "@validations": path.resolve(__dirname, "./src/validations"),
     },
+    
   },
-  plugins: [react(), svgr()],
+  
+ 
 });
